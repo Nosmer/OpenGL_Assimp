@@ -83,7 +83,6 @@ int main()
     // -----------
     Model ourModel("resources/backpack/backpack.obj");
 
-
     // draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
