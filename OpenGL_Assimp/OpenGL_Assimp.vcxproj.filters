@@ -49,10 +49,63 @@
     <None Include="model_loading.fs">
       <Filter>Исходные файлы</Filter>
     </None>
-    <None Include="assimp-vc142-mtd.dll" />
+    <None Include="assimpd.dll" />
+    <None Include="resources\suit\nanosuit.blend" />
+    <None Include="resources\suit\nanosuit.mtl" />
     <None Include="resources\backpack\backpack.mtl" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="resources\suit\arm_dif.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\arm_showroom_ddn.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\arm_showroom_spec.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\body_dif.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\body_showroom_ddn.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\body_showroom_spec.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\glass_ddn.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\glass_dif.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\hand_dif.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\hand_showroom_ddn.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\hand_showroom_spec.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\helmet_diff.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\helmet_showroom_ddn.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\helmet_showroom_spec.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\leg_dif.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\leg_showroom_ddn.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="resources\suit\leg_showroom_spec.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
     <Image Include="resources\backpack\ao.jpg">
       <Filter>Файлы ресурсов</Filter>
     </Image>
@@ -70,9 +123,7 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="resources\backpack\backpack.obj" />
-  </ItemGroup>
-  <ItemGroup>
+    <Text Include="resources\suit\LICENSE.txt" />
     <Text Include="resources\backpack\source_attribution.txt" />
   </ItemGroup>
 </Project>
